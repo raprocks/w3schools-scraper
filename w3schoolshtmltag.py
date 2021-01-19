@@ -5,27 +5,40 @@ from bs4 import BeautifulSoup
 def scrape_tag(tagurl: str):
     soup = get_soup(tagurl)
     main_div = soup.find('div', 'id')
-    identifier = tagurl.split('/')[-1].split('tag_')[1].split('.asp')[0]
+    # identifier = tagurl.split('/')[-1].split('tag_')[1].split('.asp')[0]
     soup = get_soup(tagurl)
     main_div = soup.find('div', id="main")
     br_tag = BeautifulSoup().new_tag(name='br')
-
+    hr_tag = BeautifulSoup().new_tag(name='hr')
+    # replace target tree with tree after first <br/> tag
+    main_div_list = list(main_div)
+    br_tag_index = main_div_list.index(br_tag)
+    main_div_list = main_div_list[br_tag_index:]
+    main_div = BeautifulSoup("".join(map(str, main_div_list)))
+    # get table of compatibility
+    # compatability_table = main_div.find('table')
+    parts = []
+    for i in len(main_div.find_all('hr')):
+        hr_index = main_div_list.index(hr_tag)
+        parts.append(main_div_list[:hr_index+1])
+        main_div_list = main_div_list[hr_index:]
+    parts.append(main_div_list)
     return main_div
 
-# <div class="w3-col l10 m12" id="main">
-# <div id="mainLeaderboard" style="overflow:hidden;">
-# <!-- MainLeaderboard-->
-# <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
-# <div id="snhb-main_leaderboard-0"></div>
-# <!-- adspace leaderboard -->
-# </div>
-# <h1>HTML <span class="color_h1">&lt;!--...--&gt;</span> Tag</h1>
-# <div class="w3-clear w3-center nextprev">
-# <a class="w3-left w3-btn" href="ref_keyboardshortcuts.asp">❮<span class="w3-hide-small"> Previous</span></a>
-# <a class="w3-btn" href="default.asp"><span class="w3-hide-small">Complete HTML </span>Reference</a>
-# <a class="w3-right w3-btn" href="tag_doctype.asp"><span class="w3-hide-small">Next </span>❯</a>
-# </div>
-# <br/>
+# # <div class="w3-col l10 m12" id="main">
+# # <div id="mainLeaderboard" style="overflow:hidden;">
+# # <!-- MainLeaderboard-->
+# # <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
+# # <div id="snhb-main_leaderboard-0"></div>
+# # <!-- adspace leaderboard -->
+# # </div>
+# # <h1>HTML <span class="color_h1">&lt;!--...--&gt;</span> Tag</h1>
+# # <div class="w3-clear w3-center nextprev">
+# # <a class="w3-left w3-btn" href="ref_keyboardshortcuts.asp">❮<span class="w3-hide-small"> Previous</span></a>
+# # <a class="w3-btn" href="default.asp"><span class="w3-hide-small">Complete HTML </span>Reference</a>
+# # <a class="w3-right w3-btn" href="tag_doctype.asp"><span class="w3-hide-small">Next </span>❯</a>
+# # </div>
+# first br # <br/>
 # <div class="w3-example">
 # <h3>Example</h3>
 # <p>An HTML comment:</p>
