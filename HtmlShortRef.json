@@ -1,0 +1,716 @@
+{
+   "a": {
+      "description": "Defines a hyperlink",
+      "html5": false,
+      "name": "<a>",
+      "reflink": "https://www.w3schools.com/tags/tag_a.asp"
+   },
+   "abbr": {
+      "description": "Defines an abbreviation or an acronym",
+      "html5": false,
+      "name": "<abbr>",
+      "reflink": "https://www.w3schools.com/tags/tag_abbr.asp"
+   },
+   "acronym": {
+      "description": "Not supported in HTML5. Use <abbr> instead.Defines an acronym",
+      "html5": false,
+      "name": "<acronym>",
+      "reflink": "https://www.w3schools.com/tags/tag_acronym.asp"
+   },
+   "address": {
+      "description": "Defines contact information for the author/owner of a document",
+      "html5": false,
+      "name": "<address>",
+      "reflink": "https://www.w3schools.com/tags/tag_address.asp"
+   },
+   "applet": {
+      "description": "Not supported in HTML5. Use <embed> or <object> instead.Defines an embedded applet",
+      "html5": false,
+      "name": "<applet>",
+      "reflink": "https://www.w3schools.com/tags/tag_applet.asp"
+   },
+   "area": {
+      "description": "Defines an area inside an image map",
+      "html5": false,
+      "name": "<area>",
+      "reflink": "https://www.w3schools.com/tags/tag_area.asp"
+   },
+   "article": {
+      "description": "Defines an article",
+      "html5": true,
+      "name": "<article>",
+      "reflink": "https://www.w3schools.com/tags/tag_article.asp"
+   },
+   "aside": {
+      "description": "Defines content aside from the page content",
+      "html5": true,
+      "name": "<aside>",
+      "reflink": "https://www.w3schools.com/tags/tag_aside.asp"
+   },
+   "audio": {
+      "description": "Defines embedded sound content",
+      "html5": true,
+      "name": "<audio>",
+      "reflink": "https://www.w3schools.com/tags/tag_audio.asp"
+   },
+   "b": {
+      "description": "Defines bold text",
+      "html5": false,
+      "name": "<b>",
+      "reflink": "https://www.w3schools.com/tags/tag_b.asp"
+   },
+   "base": {
+      "description": "Specifies the base URL/target for all relative URLs in a document",
+      "html5": false,
+      "name": "<base>",
+      "reflink": "https://www.w3schools.com/tags/tag_base.asp"
+   },
+   "basefont": {
+      "description": "Not supported in HTML5. Use CSS instead.Specifies a default color, size, and font for all text in a document",
+      "html5": false,
+      "name": "<basefont>",
+      "reflink": "https://www.w3schools.com/tags/tag_basefont.asp"
+   },
+   "bdi": {
+      "description": "Isolates a part of text that might be formatted in a different direction \r\nfrom other text outside it",
+      "html5": false,
+      "name": "<bdi>",
+      "reflink": "https://www.w3schools.com/tags/tag_bdi.asp"
+   },
+   "bdo": {
+      "description": "Overrides the current text direction",
+      "html5": false,
+      "name": "<bdo>",
+      "reflink": "https://www.w3schools.com/tags/tag_bdo.asp"
+   },
+   "big": {
+      "description": "Not supported in HTML5. Use CSS instead.Defines big text",
+      "html5": false,
+      "name": "<big>",
+      "reflink": "https://www.w3schools.com/tags/tag_big.asp"
+   },
+   "blockquote": {
+      "description": "Defines a section that is quoted from another source",
+      "html5": false,
+      "name": "<blockquote>",
+      "reflink": "https://www.w3schools.com/tags/tag_blockquote.asp"
+   },
+   "body": {
+      "description": "Defines the document's body",
+      "html5": false,
+      "name": "<body>",
+      "reflink": "https://www.w3schools.com/tags/tag_body.asp"
+   },
+   "br": {
+      "description": "Defines a single line break",
+      "html5": false,
+      "name": "<br>",
+      "reflink": "https://www.w3schools.com/tags/tag_br.asp"
+   },
+   "button": {
+      "description": "Defines a clickable button",
+      "html5": false,
+      "name": "<button>",
+      "reflink": "https://www.w3schools.com/tags/tag_button.asp"
+   },
+   "canvas": {
+      "description": "Used to draw graphics, on the fly, via scripting (usually JavaScript)",
+      "html5": false,
+      "name": "<canvas>",
+      "reflink": "https://www.w3schools.com/tags/tag_canvas.asp"
+   },
+   "caption": {
+      "description": "Defines a table caption",
+      "html5": false,
+      "name": "<caption>",
+      "reflink": "https://www.w3schools.com/tags/tag_caption.asp"
+   },
+   "center": {
+      "description": "Not supported in HTML5. Use CSS instead.Defines centered text",
+      "html5": false,
+      "name": "<center>",
+      "reflink": "https://www.w3schools.com/tags/tag_center.asp"
+   },
+   "cite": {
+      "description": "Defines the title of a work",
+      "html5": false,
+      "name": "<cite>",
+      "reflink": "https://www.w3schools.com/tags/tag_cite.asp"
+   },
+   "code": {
+      "description": "Defines a piece of computer code",
+      "html5": false,
+      "name": "<code>",
+      "reflink": "https://www.w3schools.com/tags/tag_code.asp"
+   },
+   "col": {
+      "description": "Specifies column properties for each column within a <colgroup> element\u00a0",
+      "html5": false,
+      "name": "<col>",
+      "reflink": "https://www.w3schools.com/tags/tag_col.asp"
+   },
+   "colgroup": {
+      "description": "Specifies a group of one or more columns in a table for formatting",
+      "html5": false,
+      "name": "<colgroup>",
+      "reflink": "https://www.w3schools.com/tags/tag_colgroup.asp"
+   },
+   "comment": {
+      "description": "Defines a comment",
+      "html5": false,
+      "name": "<!--...-->",
+      "reflink": "https://www.w3schools.com/tags/tag_comment.asp"
+   },
+   "data": {
+      "description": "Adds a machine-readable \r\ntranslation of a given content",
+      "html5": false,
+      "name": "<data>",
+      "reflink": "https://www.w3schools.com/tags/tag_data.asp"
+   },
+   "datalist": {
+      "description": "Specifies a list of pre-defined options for input controls",
+      "html5": false,
+      "name": "<datalist>",
+      "reflink": "https://www.w3schools.com/tags/tag_datalist.asp"
+   },
+   "dd": {
+      "description": "Defines a description/value of a term in a description list",
+      "html5": false,
+      "name": "<dd>",
+      "reflink": "https://www.w3schools.com/tags/tag_dd.asp"
+   },
+   "del": {
+      "description": "Defines text that has been deleted from a document",
+      "html5": false,
+      "name": "<del>",
+      "reflink": "https://www.w3schools.com/tags/tag_del.asp"
+   },
+   "details": {
+      "description": "Defines additional details that the user can view or hide",
+      "html5": false,
+      "name": "<details>",
+      "reflink": "https://www.w3schools.com/tags/tag_details.asp"
+   },
+   "dfn": {
+      "description": "Specifies a term that is going to be defined within the content",
+      "html5": false,
+      "name": "<dfn>",
+      "reflink": "https://www.w3schools.com/tags/tag_dfn.asp"
+   },
+   "dialog": {
+      "description": "Defines a dialog box or window",
+      "html5": false,
+      "name": "<dialog>",
+      "reflink": "https://www.w3schools.com/tags/tag_dialog.asp"
+   },
+   "dir": {
+      "description": "Not supported in HTML5. Use <ul> instead.Defines a directory list",
+      "html5": false,
+      "name": "<dir>",
+      "reflink": "https://www.w3schools.com/tags/tag_dir.asp"
+   },
+   "div": {
+      "description": "Defines a section in a document",
+      "html5": false,
+      "name": "<div>",
+      "reflink": "https://www.w3schools.com/tags/tag_div.asp"
+   },
+   "dl": {
+      "description": "Defines a description list",
+      "html5": false,
+      "name": "<dl>",
+      "reflink": "https://www.w3schools.com/tags/tag_dl.asp"
+   },
+   "doctype": {
+      "description": "Defines the document type",
+      "html5": false,
+      "name": "<!DOCTYPE>\u00a0",
+      "reflink": "https://www.w3schools.com/tags/tag_doctype.asp"
+   },
+   "dt": {
+      "description": "Defines a term/name in a description list",
+      "html5": false,
+      "name": "<dt>",
+      "reflink": "https://www.w3schools.com/tags/tag_dt.asp"
+   },
+   "em": {
+      "description": "Defines emphasized text\u00a0",
+      "html5": false,
+      "name": "<em>",
+      "reflink": "https://www.w3schools.com/tags/tag_em.asp"
+   },
+   "embed": {
+      "description": "Defines a container for an external application",
+      "html5": false,
+      "name": "<embed>",
+      "reflink": "https://www.w3schools.com/tags/tag_embed.asp"
+   },
+   "fieldset": {
+      "description": "Groups related elements in a form",
+      "html5": false,
+      "name": "<fieldset>",
+      "reflink": "https://www.w3schools.com/tags/tag_fieldset.asp"
+   },
+   "figcaption": {
+      "description": "Defines a caption for a <figure> element",
+      "html5": true,
+      "name": "<figcaption>",
+      "reflink": "https://www.w3schools.com/tags/tag_figcaption.asp"
+   },
+   "figure": {
+      "description": "Specifies self-contained content",
+      "html5": true,
+      "name": "<figure>",
+      "reflink": "https://www.w3schools.com/tags/tag_figure.asp"
+   },
+   "font": {
+      "description": "Not supported in HTML5. Use CSS instead.Defines font, color, and size for text",
+      "html5": false,
+      "name": "<font>",
+      "reflink": "https://www.w3schools.com/tags/tag_font.asp"
+   },
+   "footer": {
+      "description": "Defines a footer for a document or section",
+      "html5": false,
+      "name": "<footer>",
+      "reflink": "https://www.w3schools.com/tags/tag_footer.asp"
+   },
+   "form": {
+      "description": "Defines an HTML form for user input",
+      "html5": false,
+      "name": "<form>",
+      "reflink": "https://www.w3schools.com/tags/tag_form.asp"
+   },
+   "frame": {
+      "description": "Not supported in HTML5.Defines a window (a frame) in a frameset",
+      "html5": false,
+      "name": "<frame>",
+      "reflink": "https://www.w3schools.com/tags/tag_frame.asp"
+   },
+   "frameset": {
+      "description": "Not supported in HTML5.Defines a set of frames",
+      "html5": false,
+      "name": "<frameset>",
+      "reflink": "https://www.w3schools.com/tags/tag_frameset.asp"
+   },
+   "head": {
+      "description": "Contains metadata/information for the document",
+      "html5": false,
+      "name": "<head>",
+      "reflink": "https://www.w3schools.com/tags/tag_head.asp"
+   },
+   "header": {
+      "description": "Defines a header for a document or section",
+      "html5": false,
+      "name": "<header>",
+      "reflink": "https://www.w3schools.com/tags/tag_header.asp"
+   },
+   "hn": {
+      "description": " Defines HTML headings",
+      "html5": false,
+      "name": "<h1> to <h6>",
+      "reflink": "https://www.w3schools.com/tags/tag_hn.asp"
+   },
+   "hr": {
+      "description": " Defines a thematic change in the content",
+      "html5": false,
+      "name": "<hr>",
+      "reflink": "https://www.w3schools.com/tags/tag_hr.asp"
+   },
+   "html": {
+      "description": "Defines the root of an HTML document",
+      "html5": false,
+      "name": "<html>",
+      "reflink": "https://www.w3schools.com/tags/tag_html.asp"
+   },
+   "i": {
+      "description": "Defines a part of text in an alternate voice or mood",
+      "html5": false,
+      "name": "<i>",
+      "reflink": "https://www.w3schools.com/tags/tag_i.asp"
+   },
+   "iframe": {
+      "description": "Defines an inline frame",
+      "html5": false,
+      "name": "<iframe>",
+      "reflink": "https://www.w3schools.com/tags/tag_iframe.asp"
+   },
+   "img": {
+      "description": "Defines an image",
+      "html5": false,
+      "name": "<img>",
+      "reflink": "https://www.w3schools.com/tags/tag_img.asp"
+   },
+   "input": {
+      "description": "Defines an input control",
+      "html5": false,
+      "name": "<input>",
+      "reflink": "https://www.w3schools.com/tags/tag_input.asp"
+   },
+   "ins": {
+      "description": "Defines a text that has been inserted into a document",
+      "html5": false,
+      "name": "<ins>",
+      "reflink": "https://www.w3schools.com/tags/tag_ins.asp"
+   },
+   "kbd": {
+      "description": "Defines keyboard input",
+      "html5": false,
+      "name": "<kbd>",
+      "reflink": "https://www.w3schools.com/tags/tag_kbd.asp"
+   },
+   "label": {
+      "description": "Defines a label\u00a0for an <input> element",
+      "html5": false,
+      "name": "<label>",
+      "reflink": "https://www.w3schools.com/tags/tag_label.asp"
+   },
+   "legend": {
+      "description": "Defines a caption for a <fieldset> element",
+      "html5": false,
+      "name": "<legend>",
+      "reflink": "https://www.w3schools.com/tags/tag_legend.asp"
+   },
+   "li": {
+      "description": "Defines a list item",
+      "html5": false,
+      "name": "<li>",
+      "reflink": "https://www.w3schools.com/tags/tag_li.asp"
+   },
+   "link": {
+      "description": "Defines the relationship between a document and an external resource (most \r\nused to link to style sheets)",
+      "html5": false,
+      "name": "<link>",
+      "reflink": "https://www.w3schools.com/tags/tag_link.asp"
+   },
+   "main": {
+      "description": "Specifies the main content of a document",
+      "html5": false,
+      "name": "<main>",
+      "reflink": "https://www.w3schools.com/tags/tag_main.asp"
+   },
+   "map": {
+      "description": "Defines an image map",
+      "html5": false,
+      "name": "<map>",
+      "reflink": "https://www.w3schools.com/tags/tag_map.asp"
+   },
+   "mark": {
+      "description": "Defines marked/highlighted text",
+      "html5": false,
+      "name": "<mark>",
+      "reflink": "https://www.w3schools.com/tags/tag_mark.asp"
+   },
+   "meta": {
+      "description": "Defines metadata about an HTML document",
+      "html5": false,
+      "name": "<meta>",
+      "reflink": "https://www.w3schools.com/tags/tag_meta.asp"
+   },
+   "meter": {
+      "description": "Defines a scalar measurement within a known range (a gauge)",
+      "html5": false,
+      "name": "<meter>",
+      "reflink": "https://www.w3schools.com/tags/tag_meter.asp"
+   },
+   "nav": {
+      "description": "Defines navigation links",
+      "html5": false,
+      "name": "<nav>",
+      "reflink": "https://www.w3schools.com/tags/tag_nav.asp"
+   },
+   "noframes": {
+      "description": "Not supported in HTML5.Defines an alternate content for users that do not support frames",
+      "html5": false,
+      "name": "<noframes>",
+      "reflink": "https://www.w3schools.com/tags/tag_noframes.asp"
+   },
+   "noscript": {
+      "description": "Defines an alternate content for users that do not support \r\nclient-side scripts",
+      "html5": false,
+      "name": "<noscript>",
+      "reflink": "https://www.w3schools.com/tags/tag_noscript.asp"
+   },
+   "object": {
+      "description": "Defines a container for an external application",
+      "html5": false,
+      "name": "<object>",
+      "reflink": "https://www.w3schools.com/tags/tag_object.asp"
+   },
+   "ol": {
+      "description": "Defines an ordered list",
+      "html5": false,
+      "name": "<ol>",
+      "reflink": "https://www.w3schools.com/tags/tag_ol.asp"
+   },
+   "optgroup": {
+      "description": "Defines a group of related options in a drop-down list",
+      "html5": false,
+      "name": "<optgroup>",
+      "reflink": "https://www.w3schools.com/tags/tag_optgroup.asp"
+   },
+   "option": {
+      "description": "Defines an option in a drop-down list",
+      "html5": false,
+      "name": "<option>",
+      "reflink": "https://www.w3schools.com/tags/tag_option.asp"
+   },
+   "output": {
+      "description": "Defines the result of a calculation",
+      "html5": false,
+      "name": "<output>",
+      "reflink": "https://www.w3schools.com/tags/tag_output.asp"
+   },
+   "p": {
+      "description": "Defines a paragraph",
+      "html5": false,
+      "name": "<p>",
+      "reflink": "https://www.w3schools.com/tags/tag_p.asp"
+   },
+   "param": {
+      "description": "Defines a parameter for an object",
+      "html5": false,
+      "name": "<param>",
+      "reflink": "https://www.w3schools.com/tags/tag_param.asp"
+   },
+   "picture": {
+      "description": "Defines a container for multiple image resources",
+      "html5": false,
+      "name": "<picture>",
+      "reflink": "https://www.w3schools.com/tags/tag_picture.asp"
+   },
+   "pre": {
+      "description": "Defines preformatted text",
+      "html5": false,
+      "name": "<pre>",
+      "reflink": "https://www.w3schools.com/tags/tag_pre.asp"
+   },
+   "progress": {
+      "description": "Represents the progress of a task",
+      "html5": false,
+      "name": "<progress>",
+      "reflink": "https://www.w3schools.com/tags/tag_progress.asp"
+   },
+   "q": {
+      "description": "Defines a short quotation",
+      "html5": false,
+      "name": "<q>",
+      "reflink": "https://www.w3schools.com/tags/tag_q.asp"
+   },
+   "rp": {
+      "description": "Defines what to show in browsers that do not support ruby annotations",
+      "html5": false,
+      "name": "<rp>",
+      "reflink": "https://www.w3schools.com/tags/tag_rp.asp"
+   },
+   "rt": {
+      "description": "Defines an explanation/pronunciation of characters (for East Asian \r\ntypography)",
+      "html5": false,
+      "name": "<rt>",
+      "reflink": "https://www.w3schools.com/tags/tag_rt.asp"
+   },
+   "ruby": {
+      "description": "Defines a ruby annotation (for East Asian typography)",
+      "html5": false,
+      "name": "<ruby>",
+      "reflink": "https://www.w3schools.com/tags/tag_ruby.asp"
+   },
+   "s": {
+      "description": "Defines text that is no longer correct",
+      "html5": false,
+      "name": "<s>",
+      "reflink": "https://www.w3schools.com/tags/tag_s.asp"
+   },
+   "samp": {
+      "description": "Defines sample output from a computer program",
+      "html5": false,
+      "name": "<samp>",
+      "reflink": "https://www.w3schools.com/tags/tag_samp.asp"
+   },
+   "script": {
+      "description": "Defines a client-side script",
+      "html5": false,
+      "name": "<script>",
+      "reflink": "https://www.w3schools.com/tags/tag_script.asp"
+   },
+   "section": {
+      "description": "Defines a section in a document",
+      "html5": false,
+      "name": "<section>",
+      "reflink": "https://www.w3schools.com/tags/tag_section.asp"
+   },
+   "select": {
+      "description": "Defines a drop-down list",
+      "html5": false,
+      "name": "<select>",
+      "reflink": "https://www.w3schools.com/tags/tag_select.asp"
+   },
+   "small": {
+      "description": "Defines smaller text",
+      "html5": false,
+      "name": "<small>",
+      "reflink": "https://www.w3schools.com/tags/tag_small.asp"
+   },
+   "source": {
+      "description": "Defines multiple media resources for media elements (<video> and <audio>)",
+      "html5": false,
+      "name": "<source>",
+      "reflink": "https://www.w3schools.com/tags/tag_source.asp"
+   },
+   "span": {
+      "description": "Defines a section in a document",
+      "html5": false,
+      "name": "<span>",
+      "reflink": "https://www.w3schools.com/tags/tag_span.asp"
+   },
+   "strike": {
+      "description": "Not supported in HTML5. Use <del> or <s> instead.Defines strikethrough text",
+      "html5": false,
+      "name": "<strike>",
+      "reflink": "https://www.w3schools.com/tags/tag_strike.asp"
+   },
+   "strong": {
+      "description": "Defines important text",
+      "html5": false,
+      "name": "<strong>",
+      "reflink": "https://www.w3schools.com/tags/tag_strong.asp"
+   },
+   "style": {
+      "description": "Defines style information for a document",
+      "html5": false,
+      "name": "<style>",
+      "reflink": "https://www.w3schools.com/tags/tag_style.asp"
+   },
+   "sub": {
+      "description": "Defines subscripted text",
+      "html5": false,
+      "name": "<sub>",
+      "reflink": "https://www.w3schools.com/tags/tag_sub.asp"
+   },
+   "summary": {
+      "description": "Defines a visible heading for a <details> element",
+      "html5": false,
+      "name": "<summary>",
+      "reflink": "https://www.w3schools.com/tags/tag_summary.asp"
+   },
+   "sup": {
+      "description": "Defines superscripted text",
+      "html5": false,
+      "name": "<sup>",
+      "reflink": "https://www.w3schools.com/tags/tag_sup.asp"
+   },
+   "svg": {
+      "description": "Defines a container for SVG graphics",
+      "html5": false,
+      "name": "<svg>",
+      "reflink": "https://www.w3schools.com/tags/tag_svg.asp"
+   },
+   "table": {
+      "description": "Defines a table",
+      "html5": false,
+      "name": "<table>",
+      "reflink": "https://www.w3schools.com/tags/tag_table.asp"
+   },
+   "tbody": {
+      "description": "Groups the body content in a table",
+      "html5": false,
+      "name": "<tbody>",
+      "reflink": "https://www.w3schools.com/tags/tag_tbody.asp"
+   },
+   "td": {
+      "description": "Defines a cell in a table",
+      "html5": false,
+      "name": "<td>",
+      "reflink": "https://www.w3schools.com/tags/tag_td.asp"
+   },
+   "template": {
+      "description": "Defines a container for content that should be hidden when the page loads",
+      "html5": false,
+      "name": "<template>",
+      "reflink": "https://www.w3schools.com/tags/tag_template.asp"
+   },
+   "textarea": {
+      "description": "Defines a multiline input control (text area)",
+      "html5": false,
+      "name": "<textarea>",
+      "reflink": "https://www.w3schools.com/tags/tag_textarea.asp"
+   },
+   "tfoot": {
+      "description": "Groups the footer content in a table",
+      "html5": false,
+      "name": "<tfoot>",
+      "reflink": "https://www.w3schools.com/tags/tag_tfoot.asp"
+   },
+   "th": {
+      "description": "Defines a header cell in a table",
+      "html5": false,
+      "name": "<th>",
+      "reflink": "https://www.w3schools.com/tags/tag_th.asp"
+   },
+   "thead": {
+      "description": "Groups the header content in a table",
+      "html5": false,
+      "name": "<thead>",
+      "reflink": "https://www.w3schools.com/tags/tag_thead.asp"
+   },
+   "time": {
+      "description": "Defines a specific time (or datetime)",
+      "html5": false,
+      "name": "<time>",
+      "reflink": "https://www.w3schools.com/tags/tag_time.asp"
+   },
+   "title": {
+      "description": "Defines a title for the document",
+      "html5": false,
+      "name": "<title>",
+      "reflink": "https://www.w3schools.com/tags/tag_title.asp"
+   },
+   "tr": {
+      "description": "Defines a row in a table",
+      "html5": false,
+      "name": "<tr>",
+      "reflink": "https://www.w3schools.com/tags/tag_tr.asp"
+   },
+   "track": {
+      "description": "Defines text tracks for media elements (<video> and <audio>)",
+      "html5": false,
+      "name": "<track>",
+      "reflink": "https://www.w3schools.com/tags/tag_track.asp"
+   },
+   "tt": {
+      "description": "Not supported in HTML5. Use CSS instead.Defines teletype text",
+      "html5": false,
+      "name": "<tt>",
+      "reflink": "https://www.w3schools.com/tags/tag_tt.asp"
+   },
+   "u": {
+      "description": "Defines some text that is unarticulated and styled differently from normal \r\ntext",
+      "html5": false,
+      "name": "<u>",
+      "reflink": "https://www.w3schools.com/tags/tag_u.asp"
+   },
+   "ul": {
+      "description": "Defines an unordered list",
+      "html5": false,
+      "name": "<ul>",
+      "reflink": "https://www.w3schools.com/tags/tag_ul.asp"
+   },
+   "var": {
+      "description": "Defines a variable",
+      "html5": false,
+      "name": "<var>",
+      "reflink": "https://www.w3schools.com/tags/tag_var.asp"
+   },
+   "video": {
+      "description": "Defines embedded video content",
+      "html5": false,
+      "name": "<video>",
+      "reflink": "https://www.w3schools.com/tags/tag_video.asp"
+   },
+   "wbr": {
+      "description": "Defines a possible line-break",
+      "html5": false,
+      "name": "<wbr>",
+      "reflink": "https://www.w3schools.com/tags/tag_wbr.asp"
+   }
+}
