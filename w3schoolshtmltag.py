@@ -27,16 +27,20 @@ def scrape_tag(tagurl: str):
     description = ""
     event_attributes_support = False
     standard_attributes_support = False
+    support_dict = {}
     for part in parts:
         local_soup = BeautifulSoup("".join(map(str, part)))
-        print(local_soup.h2)
         if local_soup.h2 is None:
             continue
         elif local_soup.h2.text == "Definition and Usage":
             description = ''
             p_tags = local_soup.find_all('p')
             for p in p_tags:
-                description += p.text
+                description += (p.text
+                                .strip()
+                                .replace("\\u00a0", '')
+                                .replace("\n", '')
+                                .replace("\r", ''))
         elif local_soup.h2.text == "Browser Support":
             support_dict = {}
             local_table = local_soup.table
@@ -61,6 +65,8 @@ def scrape_tag(tagurl: str):
                 event_attributes_support = True
         else:
             title = local_soup.h2
+            print(title)
+            break
     return_dict = {
         'description': description,
         'event_attributes_support': event_attributes_support,
@@ -70,10 +76,14 @@ def scrape_tag(tagurl: str):
     return return_dict
 
 
-with open("HtmlShortRef.json") as fd:
-    data_dict = json.loads(fd.read())
+if __name__ == "__main__":
 
-for key in data_dict.keys():
-    reflink = data_dict[key]["reflink"]
-    scraped = scrape_tag(reflink)
-    data_dict[key].update(scraped)
+    with open("HtmlShortRef.json") as fd:
+        data_dict = json.loads(fd.read())
+
+    for key in data_dict.keys():
+        print(key)
+        reflink = data_dict[key]["reflink"]
+        scraped = scrape_tag(reflink)
+        data_dict[key].update(scraped)
+    # write_dict_to_json(data_dict, "HtmlBigRef")

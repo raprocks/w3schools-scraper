@@ -1,0 +1,1715 @@
+{
+  "a": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <a> tag defines a hyperlink, which is used to link from one page to another.The most important attribute of the <a> element is the \r\nhref attribute, which indicates the link's destination.By default, links will appear as follows in all browsers:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<a>",
+    "reflink": "https://www.w3schools.com/tags/tag_a.asp",
+    "standard_attributes_support": false
+  },
+  "abbr": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <abbr> tag defines an abbreviation or an acronym, like \"HTML\", \r\n\"CSS\", \"Mr.\", \r\n\"Dr.\", \"ASAP\", \"ATM\".Tip: Use the global \ntitle attribute to show the description for the \r\nabbreviation/acronym when you mouse over the element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<abbr>",
+    "reflink": "https://www.w3schools.com/tags/tag_abbr.asp",
+    "standard_attributes_support": false
+  },
+  "acronym": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<acronym>",
+    "reflink": "https://www.w3schools.com/tags/tag_acronym.asp",
+    "standard_attributes_support": false
+  },
+  "address": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <address> tag defines the contact information for the author/owner of a document \r\nor an article.The contact information can be an email address, URL, physical address, phone \r\nnumber, social media handle, etc.The text in the <address> element usually renders in italic, \r\nand browsers will\r\nalways add a line break before and after the <address> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<address>",
+    "reflink": "https://www.w3schools.com/tags/tag_address.asp",
+    "standard_attributes_support": false
+  },
+  "applet": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<applet>",
+    "reflink": "https://www.w3schools.com/tags/tag_applet.asp",
+    "standard_attributes_support": false
+  },
+  "area": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <area> tag defines an area inside an image map (an image map is an image with clickable areas).<area> elements are always nested inside a \r\n<map> tag.Note: The usemap attribute in <img> is associated with \r\nthe <map> element's \r\nname attribute, and creates a relationship between the image and the map.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<area>",
+    "reflink": "https://www.w3schools.com/tags/tag_area.asp",
+    "standard_attributes_support": false
+  },
+  "article": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <article> tag specifies independent, self-contained content.An article should make sense on its own and it should be possible to \r\ndistribute it independently from the rest of the site.Potential sources for the <article> element:Note: The <article> element does not \r\nrender as anything special in a browser. However, you can use CSS to style the <article> \r\nelement (see example below).",
+    "event_attributes_support": true,
+    "html5": true,
+    "name": "<article>",
+    "reflink": "https://www.w3schools.com/tags/tag_article.asp",
+    "standard_attributes_support": false
+  },
+  "aside": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <aside> tag defines some content aside from the content it is placed in.The aside content should be indirectly related to the surrounding content.Tip: The <aside> content is \r\noften placed as a sidebar in a document.Note: The <aside> element does not \r\nrender as anything special in a browser. However, you can use CSS to style the <aside> \r\nelement (see example below).",
+    "event_attributes_support": true,
+    "html5": true,
+    "name": "<aside>",
+    "reflink": "https://www.w3schools.com/tags/tag_aside.asp",
+    "standard_attributes_support": false
+  },
+  "audio": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <audio> tag is used to embed sound \r\ncontent in a document, such as music or other audio streams.The <audio> tag contains one or more\r\n<source> tags \r\nwith different audio sources. The browser will choose the first source it \r\nsupports.The text between the <audio> and </audio> \r\ntags will only be displayed in browsers that do not support the <audio> element.There are three supported audio formats in HTML: MP3, WAV, and OGG.",
+    "event_attributes_support": true,
+    "html5": true,
+    "name": "<audio>",
+    "reflink": "https://www.w3schools.com/tags/tag_audio.asp",
+    "standard_attributes_support": false
+  },
+  "b": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <b> tag specifies bold text without any extra importance.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<b>",
+    "reflink": "https://www.w3schools.com/tags/tag_b.asp",
+    "standard_attributes_support": false
+  },
+  "base": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <base> tag specifies the base URL \r\nand/or target for all relative URLs in a document.The <base> tag must have either an \r\nhref or a target attribute present, or both.There can only be one single <base> element in a document, and it must be inside the <head> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<base>",
+    "reflink": "https://www.w3schools.com/tags/tag_base.asp",
+    "standard_attributes_support": false
+  },
+  "basefont": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<basefont>",
+    "reflink": "https://www.w3schools.com/tags/tag_basefont.asp",
+    "standard_attributes_support": false
+  },
+  "bdi": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "BDI stands for Bi-Directional Isolation.The <bdi> tag isolates a part of text that might be formatted in a different direction from other text outside it.This element is useful when embedding user-generated content with an unknown \r\ntext direction.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<bdi>",
+    "reflink": "https://www.w3schools.com/tags/tag_bdi.asp",
+    "standard_attributes_support": false
+  },
+  "bdo": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "BDO stands for Bi-Directional Override.The <bdo> tag is used to override the current text direction.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<bdo>",
+    "reflink": "https://www.w3schools.com/tags/tag_bdo.asp",
+    "standard_attributes_support": false
+  },
+  "big": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<big>",
+    "reflink": "https://www.w3schools.com/tags/tag_big.asp",
+    "standard_attributes_support": false
+  },
+  "blockquote": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <blockquote> tag specifies a section that is quoted from another source.Browsers usually indent <blockquote> elements \r\n(look at example below to see how to remove the indentation).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<blockquote>",
+    "reflink": "https://www.w3schools.com/tags/tag_blockquote.asp",
+    "standard_attributes_support": false
+  },
+  "body": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <body> tag defines the document's body.The <body> element contains all the contents of an HTML document, such as \r\nheadings, paragraphs, images, hyperlinks, tables, lists, etc.Note: There can only be one <body> \r\nelement in an HTML document.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<body>",
+    "reflink": "https://www.w3schools.com/tags/tag_body.asp",
+    "standard_attributes_support": false
+  },
+  "br": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <br> tag inserts a single line break.The <br> tag is useful for writing addresses or poems.The <br> tag is an empty tag which means that it has no end tag.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<br>",
+    "reflink": "https://www.w3schools.com/tags/tag_br.asp",
+    "standard_attributes_support": false
+  },
+  "button": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <button> tag defines a clickable button.Inside a <button> element you can put text \r\n(and tags like <i>, <b>,\r\n<strong>, <br>, <img>, etc.).\r\nThat is not possible with a button created with the <input> element!Tip: Always specify the type attribute for a <button> element, \r\nto tell browsers what type of button it is.Tip: You can easily style buttons with CSS! Look at the \r\nexamples below or visit our CSS Buttons \r\ntutorial.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<button>",
+    "reflink": "https://www.w3schools.com/tags/tag_button.asp",
+    "standard_attributes_support": false
+  },
+  "canvas": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).The <canvas> tag is transparent, and \r\nis only a container for graphics, you must use a script to actually draw the graphics.Any text inside the <canvas> element will be displayed in browsers \r\nwith JavaScript disabled and in browsers that do not support <canvas>.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<canvas>",
+    "reflink": "https://www.w3schools.com/tags/tag_canvas.asp",
+    "standard_attributes_support": false
+  },
+  "caption": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <caption> tag defines a table caption.The <caption> tag must be inserted immediately after the \r\n<table> tag.Tip: By default, a table caption will be center-aligned above a \r\ntable. However, the CSS properties \r\ntext-align and caption-side \r\ncan be used to align and place the caption.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<caption>",
+    "reflink": "https://www.w3schools.com/tags/tag_caption.asp",
+    "standard_attributes_support": false
+  },
+  "center": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<center>",
+    "reflink": "https://www.w3schools.com/tags/tag_center.asp",
+    "standard_attributes_support": false
+  },
+  "cite": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <cite> tag defines the title of a \r\ncreative work (e.g. a book, a poem, a song, a movie, a painting, a sculpture, etc.).Note: A person's name is not the title of a work.The text in the <cite> element usually renders in italic.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<cite>",
+    "reflink": "https://www.w3schools.com/tags/tag_cite.asp",
+    "standard_attributes_support": false
+  },
+  "code": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <code> tag is used to define a piece of computer code. \r\nThe content inside is displayed in the browser's default monospace font. Tip: This tag is not deprecated. However, \r\nit is possible to achieve richer effect by using CSS (see example below).Also look at:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<code>",
+    "reflink": "https://www.w3schools.com/tags/tag_code.asp",
+    "standard_attributes_support": false
+  },
+  "col": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <col> tag specifies column properties for each column within a \r\n<colgroup> element.The <col> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<col>",
+    "reflink": "https://www.w3schools.com/tags/tag_col.asp",
+    "standard_attributes_support": false
+  },
+  "colgroup": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <colgroup> tag specifies a group of one or more columns in a table for formatting.The <colgroup> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.Note: The <colgroup> tag must be a child of a <table> element, \r\nafter any <caption> elements and before any <thead>, <tbody>, <tfoot>, and <tr> \r\nelements.Tip: To define different properties to a column within a <colgroup>, \r\nuse the <col> tag within the <colgroup> tag.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<colgroup>",
+    "reflink": "https://www.w3schools.com/tags/tag_colgroup.asp",
+    "standard_attributes_support": false
+  },
+  "comment": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.You can use comments to explain your code, which can help you when you edit the source code at a later date. This is \r\nespecially useful if you have a lot of code.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<!--...-->",
+    "reflink": "https://www.w3schools.com/tags/tag_comment.asp",
+    "standard_attributes_support": true
+  },
+  "data": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <data> tag is used to add a machine-readable \r\ntranslation of a given content.This element provides both a machine-readable value for data processors, and \r\na human-readable value for rendering in a browser.Tip: If the content is time- or date-related, use the \r\n<time> \r\nelement instead.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<data>",
+    "reflink": "https://www.w3schools.com/tags/tag_data.asp",
+    "standard_attributes_support": false
+  },
+  "datalist": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <datalist> tag specifies a list of pre-defined options for an <input> element.The <datalist> tag is used to provide an \"autocomplete\" feature \r\nfor <input> \r\nelements. Users will see a drop-down list of pre-defined options as they input data.The <datalist> element's id attribute \r\nmust be equal to the <input> element's list attribute (this binds them \r\ntogether).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<datalist>",
+    "reflink": "https://www.w3schools.com/tags/tag_datalist.asp",
+    "standard_attributes_support": false
+  },
+  "dd": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <dd> tag is used to describe a term/name in a description list.The <dd> tag is used in conjunction with <dl> \r\n(defines a description list) and <dt> (defines \r\nterms/names).Inside a <dd> tag you can put paragraphs, line breaks, images, links, lists, etc.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<dd>",
+    "reflink": "https://www.w3schools.com/tags/tag_dd.asp",
+    "standard_attributes_support": false
+  },
+  "del": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <del> tag defines text that has been deleted from a document. \r\nBrowsers will usually strike a line through deleted text.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<del>",
+    "reflink": "https://www.w3schools.com/tags/tag_del.asp",
+    "standard_attributes_support": false
+  },
+  "details": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <details> tag specifies additional details that the user can \r\nopen and close on demand.The <details> tag is often used to create an interactive widget that the user can \r\nopen and close. By default, the widget is closed. When open, it expands, and \r\ndisplays the content within.Any sort of content can be put inside the <details> tag.\u00a0Tip: The <summary> tag is used in \r\nconjuction with <details> to \r\nspecify a visible heading for the details.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<details>",
+    "reflink": "https://www.w3schools.com/tags/tag_details.asp",
+    "standard_attributes_support": false
+  },
+  "dfn": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <dfn> tag stands for the \r\n\"definition element\", and it specifies a term that is going to be defined within \r\nthe content.The nearest parent of the <dfn> tag must also contain the definition/explanation for the term.The term inside the <dfn> tag can be any of the following:1. Just as the content of the  <dfn> \r\nelement:2. Or, with the title attribute added:3. Or, with an <abbr> tag inside the  <dfn> element:4. Or, with the id attribute added. Then, whenever a term \r\nis used, it can refer back to the definition with an <a> tag:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<dfn>",
+    "reflink": "https://www.w3schools.com/tags/tag_dfn.asp",
+    "standard_attributes_support": false
+  },
+  "dialog": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <dialog> tag defines a dialog box or \r\nsubwindow.The <dialog> element makes it easy to create popup dialogs and modals on a web page.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<dialog>",
+    "reflink": "https://www.w3schools.com/tags/tag_dialog.asp",
+    "standard_attributes_support": false
+  },
+  "dir": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<dir>",
+    "reflink": "https://www.w3schools.com/tags/tag_dir.asp",
+    "standard_attributes_support": false
+  },
+  "div": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <div> tag defines a division or a section in an HTML document.The <div> tag is used as a container for HTML elements \r\n- which is then styled with CSS or manipulated with JavaScript.The <div> tag is easily styled by \r\nusing the class or id attribute.Any sort of content can be put inside the <div> \r\ntag!\u00a0Note: By default, browsers always place a line break before and after the  <div> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<div>",
+    "reflink": "https://www.w3schools.com/tags/tag_div.asp",
+    "standard_attributes_support": false
+  },
+  "dl": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <dl> tag defines a description list.The <dl> tag is used in conjunction with <dt> (defines \r\nterms/names) and \r\n<dd> (describes each term/name).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<dl>",
+    "reflink": "https://www.w3schools.com/tags/tag_dl.asp",
+    "standard_attributes_support": false
+  },
+  "doctype": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "All HTML documents must start with a <!DOCTYPE> declaration.The declaration is not an HTML tag.\r\nIt is an \"information\" to the browser about what document type to expect.In HTML 5, the declaration is simple:",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<!DOCTYPE>\u00a0",
+    "reflink": "https://www.w3schools.com/tags/tag_doctype.asp",
+    "standard_attributes_support": false
+  },
+  "dt": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <dt> tag defines a term/name in a description list.The <dt> tag is used in conjunction with <dl> (defines \r\na description list) and \r\n<dd> (describes each term/name).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<dt>",
+    "reflink": "https://www.w3schools.com/tags/tag_dt.asp",
+    "standard_attributes_support": false
+  },
+  "em": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <em> tag is used to define emphasized text. \r\nThe content inside is typically displayed in italic.A screen reader will pronounce the words in <em> \r\nwith an emphasis, using verbal stress.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<em>",
+    "reflink": "https://www.w3schools.com/tags/tag_em.asp",
+    "standard_attributes_support": false
+  },
+  "embed": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <embed> tag defines a container for an external resource, \r\nsuch as a web page, a picture, a media player, or a plug-in application.Most browsers no longer support Java Applets and Plug-ins.ActiveX controls are no longer supported in any browsers.The support for Shockwave Flash has also been turned off in modern browsers.To display a picture, it is better to use the <img> tag.To display HTML, it is better to use the <iframe> tag.To display video or audio, it is better to use the <video> and <audio> tags.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<embed>",
+    "reflink": "https://www.w3schools.com/tags/tag_embed.asp",
+    "standard_attributes_support": false
+  },
+  "fieldset": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <fieldset> tag is used to group related elements in a form.The <fieldset> tag draws a box around the related elements.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<fieldset>",
+    "reflink": "https://www.w3schools.com/tags/tag_fieldset.asp",
+    "standard_attributes_support": false
+  },
+  "figcaption": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <figcaption> tag defines a caption for a <figure> element.The <figcaption> element can be placed as the first or last child of the <figure> element.",
+    "event_attributes_support": true,
+    "html5": true,
+    "name": "<figcaption>",
+    "reflink": "https://www.w3schools.com/tags/tag_figcaption.asp",
+    "standard_attributes_support": false
+  },
+  "figure": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <figure> tag specifies self-contained content, like illustrations, diagrams, photos, code listings, etc.While the content of the <figure> element is related to the main flow,\r\nits position is independent of the main flow, and if removed it should not affect the flow of the document.Tip: The <figcaption> element is used to add a caption for the <figure> element.",
+    "event_attributes_support": true,
+    "html5": true,
+    "name": "<figure>",
+    "reflink": "https://www.w3schools.com/tags/tag_figure.asp",
+    "standard_attributes_support": false
+  },
+  "font": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<font>",
+    "reflink": "https://www.w3schools.com/tags/tag_font.asp",
+    "standard_attributes_support": false
+  },
+  "footer": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <footer> tag defines a footer for a document or section.A <footer> element typically contains:You can have several <footer> elements in one document.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<footer>",
+    "reflink": "https://www.w3schools.com/tags/tag_footer.asp",
+    "standard_attributes_support": false
+  },
+  "form": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <form> tag is used to create an HTML form for user input.The <form> element can contain one or more of the following form elements:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<form>",
+    "reflink": "https://www.w3schools.com/tags/tag_form.asp",
+    "standard_attributes_support": false
+  },
+  "frame": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<frame>",
+    "reflink": "https://www.w3schools.com/tags/tag_frame.asp",
+    "standard_attributes_support": false
+  },
+  "frameset": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<frameset>",
+    "reflink": "https://www.w3schools.com/tags/tag_frameset.asp",
+    "standard_attributes_support": false
+  },
+  "head": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <head> element is a container for \r\nmetadata (data about data) and is placed between the <html> tag and the <body> \r\ntag.Metadata is data about the HTML document. Metadata is not displayed.Metadata typically define the document title, character set, styles, scripts, \r\nand other meta information.The following elements can go inside the <head> element:",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<head>",
+    "reflink": "https://www.w3schools.com/tags/tag_head.asp",
+    "standard_attributes_support": false
+  },
+  "header": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <header> element represents a container for introductory content or \r\na set of navigational links.A <header> element typically contains:Note: You can have several <header> elements in one \r\nHTML document. However, <header> cannot be placed within a <footer>, <address> or another <header> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<header>",
+    "reflink": "https://www.w3schools.com/tags/tag_header.asp",
+    "standard_attributes_support": false
+  },
+  "hn": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <h1> to <h6> tags are used to define HTML headings. <h1> defines the most important heading. <h6> defines the least important heading. Note: Only use one <h1> \r\nper page - this should represent the main heading/subject for the whole page. \r\nAlso, do not skip heading levels - start with <h1>, \r\nthen use <h2>, and so on. ",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<h1> to <h6>",
+    "reflink": "https://www.w3schools.com/tags/tag_hn.asp",
+    "standard_attributes_support": false
+  },
+  "hr": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <hr> tag defines a thematic break in an HTML page (e.g. a shift of topic).The <hr> element is most often displayed as a horizontal rule that is used to separate content (or define a change) in an HTML page.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<hr>",
+    "reflink": "https://www.w3schools.com/tags/tag_hr.asp",
+    "standard_attributes_support": false
+  },
+  "html": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <html> tag represents the root of an HTML document.The <html> tag is the container for all other HTML elements (except for the\r\n<!DOCTYPE> tag).Note: You should always include the\r\nlang attribute inside the <html> \r\ntag, to declare the language of the Web page. This is meant to assist search \r\nengines and browsers.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<html>",
+    "reflink": "https://www.w3schools.com/tags/tag_html.asp",
+    "standard_attributes_support": false
+  },
+  "i": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <i> tag defines a part of text in an alternate voice or mood. \r\nThe content inside is typically displayed in italic.The <i> tag is often used to indicate a technical term, a phrase from another \r\nlanguage, a thought, a ship name, etc.Use the <i> element only when there is not a more appropriate semantic element, such as:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<i>",
+    "reflink": "https://www.w3schools.com/tags/tag_i.asp",
+    "standard_attributes_support": false
+  },
+  "iframe": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <iframe> tag specifies an inline frame.An inline frame is used to embed another document within the current HTML document.Tip: Use CSS to style the <iframe> \r\n(see example below).\u00a0Tip: It is a good practice to always include a title \r\nattribute for the <iframe>. This is used \r\nby screen readers to read out what the content of the <iframe> \r\nis.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<iframe>",
+    "reflink": "https://www.w3schools.com/tags/tag_iframe.asp",
+    "standard_attributes_support": false
+  },
+  "img": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <img> tag is used to embed an image in an HTML page.Images are not technically inserted into a web page; images \r\nare linked to web pages. The <img> tag creates a holding space for the referenced image.The <img> tag has two required attributes:Note: Also, always specify the width and height of an image. \r\nIf width and height are not specified, the page might flicker while the image \r\nloads.Tip: To link an image to another document, simply nest the <img> tag inside \r\nan <a> tag (see example below).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<img>",
+    "reflink": "https://www.w3schools.com/tags/tag_img.asp",
+    "standard_attributes_support": false
+  },
+  "input": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <input> tag specifies an input field where the user can enter data. The <input> element is the most \r\nimportant form element. The <input> element can be displayed \r\nin several ways, depending on the type attribute.The different input types are as follows:Look at the type attribute to see examples \r\nfor each input type!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<input>",
+    "reflink": "https://www.w3schools.com/tags/tag_input.asp",
+    "standard_attributes_support": false
+  },
+  "ins": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <ins> tag defines a text that has been inserted into a document. Browsers will \r\nusually underline inserted text.Tip: Also look at the <del> tag to markup deleted text.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<ins>",
+    "reflink": "https://www.w3schools.com/tags/tag_ins.asp",
+    "standard_attributes_support": false
+  },
+  "kbd": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <kbd> tag is used to define keyboard input. \r\nThe content inside is displayed in the browser's default monospace font.Tip: This tag is not deprecated. However, \r\nit is possible to achieve richer effect by using CSS (see example below).Also look at:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<kbd>",
+    "reflink": "https://www.w3schools.com/tags/tag_kbd.asp",
+    "standard_attributes_support": false
+  },
+  "label": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <label> tag defines a label for several elements:Proper use of labels with the elements above will benefit:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<label>",
+    "reflink": "https://www.w3schools.com/tags/tag_label.asp",
+    "standard_attributes_support": false
+  },
+  "legend": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <legend> tag defines a caption for the <fieldset> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<legend>",
+    "reflink": "https://www.w3schools.com/tags/tag_legend.asp",
+    "standard_attributes_support": false
+  },
+  "li": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <li> tag defines a list item.The <li> tag is used inside ordered lists(<ol>), unordered lists (<ul>), and in\r\nmenu lists (<menu>).In <ul> and <menu>, the list items will usually be displayed with bullet \r\npoints.In <ol>, the list items will usually be displayed with numbers or letters.Tip: Use CSS to style lists.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<li>",
+    "reflink": "https://www.w3schools.com/tags/tag_li.asp",
+    "standard_attributes_support": false
+  },
+  "link": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <link> tag defines the \r\nrelationship between the current document and an external \r\nresource.The <link> tag is most often used to link to external style sheets.The <link> element is an empty element, it contains attributes only.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<link>",
+    "reflink": "https://www.w3schools.com/tags/tag_link.asp",
+    "standard_attributes_support": false
+  },
+  "main": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <main> tag specifies the main content of a document.The content inside the <main> element should be unique to the document. \r\nIt should not contain any content that is repeated across documents such as \r\nsidebars, navigation links, copyright information, site logos, and search forms.Note: There must not be more than one <main> element in a \r\ndocument. The <main> element must NOT be a descendant of an <article>, <aside>, <footer>, \r\n<header>, or <nav> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<main>",
+    "reflink": "https://www.w3schools.com/tags/tag_main.asp",
+    "standard_attributes_support": false
+  },
+  "map": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <map> tag is used to define an image map. An image map is an image with clickable areas.The required name attribute of the <map> element is associated \r\nwith the <img>'s usemap attribute and creates a relationship between the image and the map.The <map> element contains a number of <area> elements, that defines the clickable areas in the image map.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<map>",
+    "reflink": "https://www.w3schools.com/tags/tag_map.asp",
+    "standard_attributes_support": false
+  },
+  "mark": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <mark> tag defines text that \r\nshould be marked or highlighted.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<mark>",
+    "reflink": "https://www.w3schools.com/tags/tag_mark.asp",
+    "standard_attributes_support": false
+  },
+  "meta": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <meta> tag defines metadata about an \r\nHTML document. Metadata is data (information) about data. <meta> tags always go inside the <head> element, \r\nand are typically used to specify character set, page description, \r\nkeywords, author of the document, and viewport settings.Metadata will not be displayed on the page, but is machine parsable.Metadata is used by browsers (how to display content or reload page), \r\nsearch engines (keywords), and other web services.There is a method to let web designers take control over the viewport \r\n(the user's visible area of a web page), through the <meta> tag (See \"Setting \r\nThe Viewport\" example below).",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<meta>",
+    "reflink": "https://www.w3schools.com/tags/tag_meta.asp",
+    "standard_attributes_support": false
+  },
+  "meter": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <meter> tag defines a scalar measurement within a known range, or a fractional value. This is also known as a gauge.Examples: Disk usage, the relevance of a query result, etc.Note: The <meter> tag should not be used to indicate progress (as in a \r\nprogress bar). For progress bars, use the <progress> tag.Tip: Always add the <label> tag \r\nfor best accessibility practices!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<meter>",
+    "reflink": "https://www.w3schools.com/tags/tag_meter.asp",
+    "standard_attributes_support": false
+  },
+  "nav": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <nav> tag defines a set of navigation links.Notice that NOT all links of a document should be inside a <nav> element. The <nav> element is \r\nintended only for major block of navigation links.Browsers, such as screen readers for disabled users, can use this element to \r\ndetermine whether to omit the initial rendering of this content.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<nav>",
+    "reflink": "https://www.w3schools.com/tags/tag_nav.asp",
+    "standard_attributes_support": false
+  },
+  "noframes": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<noframes>",
+    "reflink": "https://www.w3schools.com/tags/tag_noframes.asp",
+    "standard_attributes_support": false
+  },
+  "noscript": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <noscript> tag defines an alternate content \r\nto be displayed to users that have disabled scripts in their browser or have a browser that doesn't support script.The <noscript> element can be used in both <head> and <body>. When used inside <head>, \r\nthe <noscript> element could only contain <link>, \r\n<style>, and <meta> elements.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<noscript>",
+    "reflink": "https://www.w3schools.com/tags/tag_noscript.asp",
+    "standard_attributes_support": false
+  },
+  "object": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <object> tag defines a container for an external resource.The external resource can be a web page, a picture, a media player, or a plug-in application.To embed a picture, it is better to use the <img> tag.To embed HTML, it is better to use the <iframe> tag.To embed video or audio, it is better to use the <video> and <audio> tags.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<object>",
+    "reflink": "https://www.w3schools.com/tags/tag_object.asp",
+    "standard_attributes_support": false
+  },
+  "ol": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <ol> tag defines an ordered list. An ordered list can be numerical or alphabetical.The <li> tag is used to define each list item.Tip: Use CSS to style lists.Tip: For unordered list, use the <ul> tag.\u00a0",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<ol>",
+    "reflink": "https://www.w3schools.com/tags/tag_ol.asp",
+    "standard_attributes_support": false
+  },
+  "optgroup": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <optgroup> tag is used to group related options \r\nin a <select> element (drop-down list).If you have a long list of options, groups of related options are easier to handle for a user.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<optgroup>",
+    "reflink": "https://www.w3schools.com/tags/tag_optgroup.asp",
+    "standard_attributes_support": false
+  },
+  "option": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <option> tag defines an option in a \r\nselect list. <option> elements go inside a <select>,\r\n<optgroup>, \r\nor <datalist> element.Note: The <option> tag can be used without any attributes, but\r\nyou usually need the value attribute, which indicates what is sent to the server \r\non form submission.Tip: If you have a long list of options, you can group related options within the <optgroup> tag.\u00a0",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<option>",
+    "reflink": "https://www.w3schools.com/tags/tag_option.asp",
+    "standard_attributes_support": false
+  },
+  "output": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <output> tag is used to represent the result of a calculation (like one performed by a script).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<output>",
+    "reflink": "https://www.w3schools.com/tags/tag_output.asp",
+    "standard_attributes_support": false
+  },
+  "p": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <p> tag defines a paragraph.Browsers automatically add a single blank line before and after each <p>  \r\nelement.Tip: Use CSS to style paragraphs.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<p>",
+    "reflink": "https://www.w3schools.com/tags/tag_p.asp",
+    "standard_attributes_support": false
+  },
+  "param": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <param> tag is used to define parameters for an\r\n<object> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<param>",
+    "reflink": "https://www.w3schools.com/tags/tag_param.asp",
+    "standard_attributes_support": false
+  },
+  "picture": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <picture> tag gives web developers more flexibility in specifying \r\nimage resources.The most common use of the <picture> element will be for art direction in \r\nresponsive designs. Instead of having one image that is scaled up or down based \r\non the viewport width, multiple images can be designed to more nicely fill the \r\nbrowser viewport.The <picture> element contains two tags: one or more \r\n<source> tags and \r\none <img> tag.The browser will look for the first <source> element where the media query \r\nmatches the current viewport width, and then it will display the proper image \r\n(specified in the srcset attribute). The <img> element is required as the last \r\nchild of the <picture> element, as a \r\nfallback option if none of the source tags matches.Tip: The <picture> element works \r\n\"similar\" to <video> and <audio>. You \r\nset up different sources, and the first source that fits the preferences is the \r\none being used.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<picture>",
+    "reflink": "https://www.w3schools.com/tags/tag_picture.asp",
+    "standard_attributes_support": false
+  },
+  "pre": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <pre> tag defines preformatted text.Text in a <pre> element is displayed in a fixed-width font, and \r\nthe text preserves both spaces and line breaks. The text will be displayed \r\nexactly as written in the HTML source code.Also look at:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<pre>",
+    "reflink": "https://www.w3schools.com/tags/tag_pre.asp",
+    "standard_attributes_support": false
+  },
+  "progress": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <progress> tag represents the \r\ncompletion progress of a task.Tip: Always add the <label> tag \r\nfor best accessibility practices!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<progress>",
+    "reflink": "https://www.w3schools.com/tags/tag_progress.asp",
+    "standard_attributes_support": false
+  },
+  "q": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <q> tag defines a short quotation.Browsers normally insert quotation marks around the quotation.Tip: Use <blockquote> for long \r\nquotations.\u00a0",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<q>",
+    "reflink": "https://www.w3schools.com/tags/tag_q.asp",
+    "standard_attributes_support": false
+  },
+  "rp": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <rp> tag can be used to provide parentheses around a ruby text, to \r\nbe shown by browsers that do not support ruby annotations.Use <rp> together with \r\n<ruby> and <rt>: The <ruby> element consists of one or more characters that needs an \r\nexplanation/pronunciation, and an <rt> element that gives that information, and \r\nan optional <rp> element that defines what to show for browsers that not support ruby annotations.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<rp>",
+    "reflink": "https://www.w3schools.com/tags/tag_rp.asp",
+    "standard_attributes_support": false
+  },
+  "rt": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <rt> tag defines an explanation or pronunciation of characters (for East Asian typography) in a ruby annotation.Use <rt> together with \r\n<ruby> and <rp>: The <ruby> element consists of one or more characters that needs an \r\nexplanation/pronunciation, and an <rt> element that gives that information, and \r\nan optional <rp> element that defines what to show for browsers that not support ruby annotations.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<rt>",
+    "reflink": "https://www.w3schools.com/tags/tag_rt.asp",
+    "standard_attributes_support": false
+  },
+  "ruby": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <ruby> tag specifies a ruby annotation.A ruby annotation is a small extra text, attached to the main text to \r\nindicate the pronunciation or meaning of the corresponding characters. This kind \r\nof annotation is often used in Japanese publications.Use <ruby> together with \r\n<rt> and \r\n<rp>: The <ruby> element consists of one or more characters that needs an \r\nexplanation/pronunciation, and an <rt> element that gives that information, and \r\nan optional <rp> element that defines what to show for browsers that do not support ruby annotations.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<ruby>",
+    "reflink": "https://www.w3schools.com/tags/tag_ruby.asp",
+    "standard_attributes_support": false
+  },
+  "s": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <s> tag specifies text that is no longer correct, accurate or relevant. \r\nThe text will be displayed with a line through it.The <s> tag should not be used to define deleted text \r\nin a document, use the \r\n<del> \r\ntag for that.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<s>",
+    "reflink": "https://www.w3schools.com/tags/tag_s.asp",
+    "standard_attributes_support": false
+  },
+  "samp": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <samp> tag is used to define sample output from a computer program. \r\nThe content inside is displayed in the browser's default monospace font.Tip: This tag is not deprecated. However, \r\nit is possible to achieve richer effect by using CSS.Also look at:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<samp>",
+    "reflink": "https://www.w3schools.com/tags/tag_samp.asp",
+    "standard_attributes_support": false
+  },
+  "script": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <script> tag is used to embed a client-side script (JavaScript).The <script> element either contains \r\nscripting statements, or it points to an external script file through the src attribute.Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<script>",
+    "reflink": "https://www.w3schools.com/tags/tag_script.asp",
+    "standard_attributes_support": false
+  },
+  "section": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <section> tag defines a section in a document.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<section>",
+    "reflink": "https://www.w3schools.com/tags/tag_section.asp",
+    "standard_attributes_support": false
+  },
+  "select": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <select> element is used to create a drop-down list.The <select> element is most often used in a form, to collect user input.The name attribute is needed to reference \r\nthe form data after the form is submitted (if you omit the \r\nname attribute, no data from the drop-down list will be submitted).The id attribute is needed to associate the \r\ndrop-down list with a label.The <option> tags inside the <select> element define the available options in \r\nthe drop-down list.Tip: Always add the <label> tag \r\nfor best accessibility practices!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<select>",
+    "reflink": "https://www.w3schools.com/tags/tag_select.asp",
+    "standard_attributes_support": false
+  },
+  "small": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <small> tag defines smaller text (like \r\ncopyright and other side-comments).Tip: This tag is not deprecated, but it is possible to achieve richer \r\n(or the same) effect with CSS.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<small>",
+    "reflink": "https://www.w3schools.com/tags/tag_small.asp",
+    "standard_attributes_support": false
+  },
+  "source": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <source> tag is used to specify multiple media resources for media elements, such as \r\n<video>, <audio>, \r\nand <picture>.The <source> tag allows you to specify alternative video/audio/image \r\nfiles which the browser may choose from, based on browser support or viewport \r\nwidth. The browser will choose the first <source> \r\nit supports.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<source>",
+    "reflink": "https://www.w3schools.com/tags/tag_source.asp",
+    "standard_attributes_support": false
+  },
+  "span": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <span> tag is an inline container used to \r\nmark up a part of a text, or a part of a document.The <span> tag is easily styled by CSS or \r\nmanipulated with JavaScript \r\nusing the class or id attribute.The <span> tag is much like the\r\n<div> element, but <div> is a block-level element and\r\n<span> is an inline element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<span>",
+    "reflink": "https://www.w3schools.com/tags/tag_span.asp",
+    "standard_attributes_support": false
+  },
+  "strike": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<strike>",
+    "reflink": "https://www.w3schools.com/tags/tag_strike.asp",
+    "standard_attributes_support": false
+  },
+  "strong": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <strong> tag is used to define \r\ntext with strong importance. The content inside is typically displayed in\r\nbold.Tip: Use the <b> tag to specify bold \r\ntext without any extra importance!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<strong>",
+    "reflink": "https://www.w3schools.com/tags/tag_strong.asp",
+    "standard_attributes_support": false
+  },
+  "style": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <style> tag is used to define style information \r\n(CSS) for a document.Inside the <style> element you specify how HTML elements should render in a browser.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<style>",
+    "reflink": "https://www.w3schools.com/tags/tag_style.asp",
+    "standard_attributes_support": false
+  },
+  "sub": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <sub> tag defines subscript text. Subscript text appears half a character below the \r\nnormal line, and is sometimes rendered in a smaller font. Subscript text can be used for chemical formulas, like H2O.Tip: Use the <sup> tag to define \r\nsuperscripted text. ",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<sub>",
+    "reflink": "https://www.w3schools.com/tags/tag_sub.asp",
+    "standard_attributes_support": false
+  },
+  "summary": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <summary> tag defines a visible heading for the <details> element.\r\nThe heading can be clicked to view/hide the details.Note: The <summary> element should be the first child element of the <details> element.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<summary>",
+    "reflink": "https://www.w3schools.com/tags/tag_summary.asp",
+    "standard_attributes_support": false
+  },
+  "sup": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <sup> tag defines superscript text. Superscript text appears half a character above the \r\nnormal line, and is sometimes rendered in a smaller font. Superscript text can be used for footnotes, like WWW[1].Tip: Use the <sub> tag to define subscript text. ",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<sup>",
+    "reflink": "https://www.w3schools.com/tags/tag_sup.asp",
+    "standard_attributes_support": false
+  },
+  "svg": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <svg> tag defines a container for SVG graphics.SVG has several methods for drawing paths, boxes, circles, text, and graphic \r\nimages.To learn more about SVG, please read our \r\nSVG Tutorial.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<svg>",
+    "reflink": "https://www.w3schools.com/tags/tag_svg.asp",
+    "standard_attributes_support": false
+  },
+  "table": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <table> tag defines an HTML table.An HTML table consists of one <table> element and one or more <tr>, \r\n<th>, and <td> elements.The <tr> element defines a table row, the <th> element defines a table header, and the \r\n<td> element defines a table cell.An HTML table may also include <caption>,\r\n<colgroup>, <thead>, \r\n<tfoot>, and <tbody> elements. ",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<table>",
+    "reflink": "https://www.w3schools.com/tags/tag_table.asp",
+    "standard_attributes_support": false
+  },
+  "tbody": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <tbody> tag is used to group the body content in an HTML table.The <tbody> element is used in conjunction with the <thead> and \r\n<tfoot> elements to specify each part of a table (body, header, footer).Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page.Note: The <tbody> element must have one or more \r\n<tr> tags inside.The <tbody> tag must be used in the following context: As a child of a \r\n<table> element, after any \r\n<caption>, <colgroup>, and \r\n<thead> elements.Tip: The <thead>, <tbody>, and <tfoot> \r\nelements will not affect the layout of the table by default. However, you can \r\nuse CSS to style these elements (see example below)!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<tbody>",
+    "reflink": "https://www.w3schools.com/tags/tag_tbody.asp",
+    "standard_attributes_support": false
+  },
+  "td": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <td> tag defines a standard data cell in an HTML table.An HTML table has two kinds of cells:The text in <td> elements are regular and left-aligned by default.The text in <th> elements are bold and centered by default.\u00a0",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<td>",
+    "reflink": "https://www.w3schools.com/tags/tag_td.asp",
+    "standard_attributes_support": false
+  },
+  "template": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <template> tag is used as a \r\ncontainer to hold some HTML content hidden from the user when the page loads.The content inside <template> can be rendered later \r\nwith a JavaScript.You can use the <template> tag if you have \r\nsome HTML code you want to use over and over \r\nagain, but not until you ask for it. To do this without the <template> tag, you \r\nhave to create the HTML code with JavaScript to prevent the browser from \r\nrendering the code.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<template>",
+    "reflink": "https://www.w3schools.com/tags/tag_template.asp",
+    "standard_attributes_support": false
+  },
+  "textarea": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <textarea> tag defines a multi-line text input control.The <textarea> element is often used in a form, to collect user inputs \r\nlike comments or reviews.A text area can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).The size of a text area is specified by the <cols> and <rows> attributes \r\n(or with CSS).The name attribute is needed to reference \r\nthe form data after the form is submitted (if you omit the \r\nname attribute, no data from the text area will be submitted).The id attribute is needed to associate the \r\ntext area with a label.\u00a0Tip: Always add the <label> tag \r\nfor best accessibility practices!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<textarea>",
+    "reflink": "https://www.w3schools.com/tags/tag_textarea.asp",
+    "standard_attributes_support": false
+  },
+  "tfoot": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <tfoot> tag is used to group footer content in an HTML table.The <tfoot> element is used in conjunction with the \r\n<thead> and <tbody> elements to specify each \r\npart of a table (footer, header, body).Browsers can use these elements to enable scrolling of the table body \r\nindependently of the header and footer. Also, when printing a large table that \r\nspans multiple pages, these elements can enable the table header and footer to \r\nbe printed at the top and bottom of each page.Note: The <tfoot> element must have one or more \r\n<tr> tags inside.The <tfoot> tag must be used in the following context: As a child of a \r\n<table> element, after any \r\n<caption>, <colgroup>, \r\n<thead>, \r\nand <tbody> elements.Tip: The <thead>, <tbody>, and <tfoot> elements will not affect the \r\nlayout of the table by default. However, you can use CSS to style these \r\nelements (see example below)!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<tfoot>",
+    "reflink": "https://www.w3schools.com/tags/tag_tfoot.asp",
+    "standard_attributes_support": false
+  },
+  "th": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <th> tag defines a header cell in an HTML table.An HTML table has two kinds of cells:The text in <th> elements are bold and centered by default.The text in <td> elements are regular and left-aligned by default.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<th>",
+    "reflink": "https://www.w3schools.com/tags/tag_th.asp",
+    "standard_attributes_support": false
+  },
+  "thead": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <thead> tag is used to group header content in an HTML table.The <thead> element is used in conjunction with the  <tbody> and <tfoot> elements to specify each part of a table (header, body, footer).Browsers can use these elements to enable scrolling of the table body independently of the header and footer. Also, when printing a large table that spans multiple pages, these elements can enable the table header and footer to be printed at the top and bottom of each page.Note: The <thead> element must have one or more \r\n<tr> tags inside.The <thead> tag must be used in the following context: As a child of a \r\n<table> element, after any \r\n<caption> and <colgroup> elements, and before any \r\n<tbody>, <tfoot>, and \r\n<tr> elements.Tip: The <thead>, <tbody>, and <tfoot> elements will not affect the \r\nlayout of the table by default. However, you can use CSS to style these \r\nelements (see example below)!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<thead>",
+    "reflink": "https://www.w3schools.com/tags/tag_thead.asp",
+    "standard_attributes_support": false
+  },
+  "time": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <time> tag defines a specific time \r\n(or datetime).The datetime attribute of this element is used \r\ntranslate the time into a \r\nmachine-readable format so that browsers can offer to add date reminders through \r\nthe user's calendar, and search engines can \r\nproduce smarter search results.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<time>",
+    "reflink": "https://www.w3schools.com/tags/tag_time.asp",
+    "standard_attributes_support": false
+  },
+  "title": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <title> tag defines the title of the document. \r\nThe title must be text-only, and it is shown in the browser's title bar or in \r\nthe page's tab.The <title> tag is required in HTML \r\ndocuments! The contents of a page title is very important for search engine optimization \r\n(SEO)! The page title is used by search engine algorithms to decide the order \r\nwhen listing pages in search results.The <title> element:Here are some tips for creating good titles:So, try to make the title as accurate and meaningful as possible!Note: You can NOT have more than one <title> element in an HTML document.",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<title>",
+    "reflink": "https://www.w3schools.com/tags/tag_title.asp",
+    "standard_attributes_support": false
+  },
+  "tr": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <tr> tag defines a row in an HTML table.A <tr> element contains one or more <th> or \r\n<td> elements.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<tr>",
+    "reflink": "https://www.w3schools.com/tags/tag_tr.asp",
+    "standard_attributes_support": false
+  },
+  "track": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <track> tag specifies text tracks for \r\n<audio> or <video> \r\nelements.This element is used to specify subtitles, caption files or other files containing \r\ntext, that should be visible when the media is playing.Tracks are formatted in WebVTT format (.vtt files).",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<track>",
+    "reflink": "https://www.w3schools.com/tags/tag_track.asp",
+    "standard_attributes_support": false
+  },
+  "tt": {
+    "browser_support": {},
+    "description": "",
+    "event_attributes_support": false,
+    "html5": false,
+    "name": "<tt>",
+    "reflink": "https://www.w3schools.com/tags/tag_tt.asp",
+    "standard_attributes_support": false
+  },
+  "u": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <u> tag represents some text that \r\nis unarticulated and styled differently \r\nfrom normal text, such as misspelled words or proper names in Chinese text. The \r\ncontent inside is typically displayed with an underline. You can change this \r\nwith CSS (see example below).\u00a0Tip: Avoid using the <u> \r\nelement where it could be confused for a hyperlink!",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<u>",
+    "reflink": "https://www.w3schools.com/tags/tag_u.asp",
+    "standard_attributes_support": false
+  },
+  "ul": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <ul> tag defines an unordered (bulleted) list.Use the <ul> tag together with the <li> tag to \r\ncreate unordered lists.Tip: Use CSS to style lists.Tip: For ordered lists, use the <ol> \r\ntag.\u00a0",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<ul>",
+    "reflink": "https://www.w3schools.com/tags/tag_ul.asp",
+    "standard_attributes_support": false
+  },
+  "var": {
+    "browser_support": {
+      "Chrome": true,
+      "Firefox": true,
+      "Internet Explorer / Edge": true,
+      "Opera": true,
+      "Safari": true
+    },
+    "description": "The <var> tag is used to defines a variable \r\nin programming or in a mathematical expression. The content inside is typically \r\ndisplayed in italic.Tip: This tag is not deprecated. However, \r\nit is possible to achieve richer effect by using CSS.Also look at:",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<var>",
+    "reflink": "https://www.w3schools.com/tags/tag_var.asp",
+    "standard_attributes_support": false
+  },
+  "video": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <video> tag is used to embed video \r\ncontent in a document, such as a movie clip or other video streams.The <video> tag contains one or more\r\n<source> tags \r\nwith different video sources. The browser will choose the first source it \r\nsupports.The text between the <video> and </video> \r\ntags will only be displayed in browsers that do not support the <video> element.There are three supported video formats in HTML: MP4, WebM, and OGG.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<video>",
+    "reflink": "https://www.w3schools.com/tags/tag_video.asp",
+    "standard_attributes_support": false
+  },
+  "wbr": {
+    "browser_support": {
+      "Chrome": false,
+      "Firefox": false,
+      "Internet Explorer / Edge": false,
+      "Opera": false,
+      "Safari": false
+    },
+    "description": "The <wbr> (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break.Tip: When a word is too long, the browser might break it at the wrong place. \r\nYou can use the <wbr> element to add word break opportunities.",
+    "event_attributes_support": true,
+    "html5": false,
+    "name": "<wbr>",
+    "reflink": "https://www.w3schools.com/tags/tag_wbr.asp",
+    "standard_attributes_support": false
+  }
+}
