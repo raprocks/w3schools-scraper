@@ -1,3 +1,4 @@
+import json
 from helpers import get_soup, write_dict_to_json
 from bs4 import BeautifulSoup
 
@@ -18,92 +19,61 @@ def scrape_tag(tagurl: str):
     # get table of compatibility
     # compatability_table = main_div.find('table')
     parts = []
-    for i in len(main_div.find_all('hr')):
+    for i in range(len(main_div.find_all('hr'))):
         hr_index = main_div_list.index(hr_tag)
-        parts.append(main_div_list[:hr_index+1])
-        main_div_list = main_div_list[hr_index:]
+        parts.append(main_div_list[:hr_index])
+        main_div_list = main_div_list[hr_index+1:]
     parts.append(main_div_list)
-    return main_div
+    description = ""
+    event_attributes_support = False
+    standard_attributes_support = False
+    for part in parts:
+        local_soup = BeautifulSoup("".join(map(str, part)))
+        print(local_soup.h2)
+        if local_soup.h2 is None:
+            continue
+        elif local_soup.h2.text == "Definition and Usage":
+            description = ''
+            p_tags = local_soup.find_all('p')
+            for p in p_tags:
+                description += p.text
+        elif local_soup.h2.text == "Browser Support":
+            support_dict = {}
+            local_table = local_soup.table
+            ths = local_table.find_all('th')
+            tds = local_table.find_all('td')
+            datazip = zip(ths, tds)
+            for browser, support in datazip:
+                if browser.get('title') is None:
+                    continue
+                title = browser["title"]
+                support_dict[title] = True if support.text.lower(
+                ).strip() == "yes" else False
+        elif local_soup.h2.text == "Standard Attributes":
+            if local_soup.p == "The comment tag does not support any standard attributes.":
+                standard_attributes_support = False
+            else:
+                standard_attributes_support = True
+        elif local_soup.h2.text == "Event Attributes":
+            if local_soup.p == "The comment tag does not support any event attributes.":
+                event_attributes_support = False
+            else:
+                event_attributes_support = True
+        else:
+            title = local_soup.h2
+    return_dict = {
+        'description': description,
+        'event_attributes_support': event_attributes_support,
+        'standard_attributes_support': standard_attributes_support,
+        'browser_support': support_dict
+    }
+    return return_dict
 
-# # <div class="w3-col l10 m12" id="main">
-# # <div id="mainLeaderboard" style="overflow:hidden;">
-# # <!-- MainLeaderboard-->
-# # <!--<pre>main_leaderboard, all: [728,90][970,90][320,50][468,60]</pre>-->
-# # <div id="snhb-main_leaderboard-0"></div>
-# # <!-- adspace leaderboard -->
-# # </div>
-# # <h1>HTML <span class="color_h1">&lt;!--...--&gt;</span> Tag</h1>
-# # <div class="w3-clear w3-center nextprev">
-# # <a class="w3-left w3-btn" href="ref_keyboardshortcuts.asp">❮<span class="w3-hide-small"> Previous</span></a>
-# # <a class="w3-btn" href="default.asp"><span class="w3-hide-small">Complete HTML </span>Reference</a>
-# # <a class="w3-right w3-btn" href="tag_doctype.asp"><span class="w3-hide-small">Next </span>❯</a>
-# # </div>
-# first br # <br/>
-# <div class="w3-example">
-# <h3>Example</h3>
-# <p>An HTML comment:</p>
-# <div class="w3-code notranslate htmlHigh">
-# &lt;!--This is a comment. Comments are not displayed in the browser--&gt;<br/><br/>
-# &lt;p&gt;This is a paragraph.&lt;/p&gt;
-# </div>
-# <a class="w3-btn w3-margin-bottom" href="tryit.asp?filename=tryhtml_comment" target="_blank">Try it Yourself »</a>
-# </div>
-# <hr/>
-# <h2>Definition and Usage</h2>
-# <p>The comment tag is used to insert comments in the source code. Comments are not displayed in the browsers.</p>
-# <p>You can use comments to explain your code, which can help you when you edit the source code at a later date. This is
-# especially useful if you have a lot of code.</p>
-# <hr/>
-# <h2>Browser Support</h2>
-# <table class="browserref notranslate">
-# <tr>
-# <th style="width:20%;font-size:16px;text-align:left;">Element</th>
-# <th class="bsChrome" style="width:16%;" title="Chrome"></th>
-# <th class="bsEdge" style="width:16%;" title="Internet Explorer / Edge"></th>
-# <th class="bsFirefox" style="width:16%;" title="Firefox"></th>
-# <th class="bsSafari" style="width:16%;" title="Safari"></th>
-# <th class="bsOpera" style="width:16%;" title="Opera"></th>
-# </tr>
-# <tr>
-# <td style="text-align:left;">&lt;!--...--&gt;</td>
-# <td>Yes</td>
-# <td>Yes</td>
-# <td>Yes</td>
-# <td>Yes</td>
-# <td>Yes</td>
-# </tr>
-# </table>
-# <hr/>
-# <h2>Tips and Notes</h2>
-# <p>You can use the comment tag to "hide" scripts from
-# browsers without support for scripts (so they don't show them as plain text):</p>
-# <div class="w3-code w3-border notranslate htmlHigh">
-# <div>
-# &lt;script type="text/javascript"&gt;<br/>
-# &lt;!--<br/>
-# function displayMsg()
-# {<br/>
-#   alert("Hello World!")<br/>
-# }<br/>
-# //--&gt;<br/>
-# &lt;/script&gt;
-# </div></div>
-# <p><b>Note:</b> The two forward slashes at the end of comment line (//) is the
-# JavaScript comment symbol. This prevents JavaScript from executing the --&gt; tag.</p>
-# <hr/>
-# <h2>Standard Attributes</h2>
-# <p>The comment tag does not support any standard attributes.</p>
-# <p>More information about <a href="ref_standardattributes.asp">Standard Attributes</a>.</p>
-# <hr/>
-# <h2>Event Attributes</h2>
-# <p>The comment tag does not support any event attributes.</p>
-# <p>More information about <a href="ref_eventattributes.asp">Event Attributes</a>.</p>
-# <br/>
-# <div class="w3-clear w3-center nextprev">
-# <a class="w3-left w3-btn" href="ref_keyboardshortcuts.asp">❮<span class="w3-hide-small"> Previous</span></a>
-# <a class="w3-btn" href="default.asp"><span class="w3-hide-small">Complete HTML </span>Reference</a>
-# <a class="w3-right w3-btn" href="tag_doctype.asp"><span class="w3-hide-small">Next </span>❯</a>
-# </div>
-# <div id="mypagediv2" style="position:relative;text-align:center;"></div>
-# <br/>
-# </div>
+
+with open("HtmlShortRef.json") as fd:
+    data_dict = json.loads(fd.read())
+
+for key in data_dict.keys():
+    reflink = data_dict[key]["reflink"]
+    scraped = scrape_tag(reflink)
+    data_dict[key].update(scraped)

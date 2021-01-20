@@ -28,7 +28,7 @@ for row in rows:
         print(identifier, "found")
         data_dict[identifier] = {
             "name": tagname,
-            "description": tag_descriptions,
+            "short_description": tag_descriptions,
             "reflink": tagref_link,
             "html5": html5tag
         }
